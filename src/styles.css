@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import './config/reset.css';
+@import './config/variables.css'; 
+
+html{
+    font-family: 'Roboto', sans-serif;
+    background: var(--primary-color);
+}
+
+main{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
